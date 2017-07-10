@@ -1,0 +1,36 @@
+{
+    "pk": 1
+    "user": {
+        "pk": 3,
+        "fields": {
+            "username": "mddrill",
+            "password": "hashedpassword",
+            "email": "mddrill@email.com"
+        }
+    },
+    "first_name": "Matt",
+    "last_name": "Drill",
+    "patients": [
+                 {
+                 "user": {
+                 "pk": 2,
+                 "fields": {
+                 "username": "dtrump",
+                 "password": "hashedpassword",
+                 "email": "dtrump@email.com"
+                 }
+                 },
+                 "first_name": "Donald",
+                 "last_name": "Trump"
+                 }
+                 ]
+    "instructions": [
+    {
+        "pk": 45,
+        "doctor": 2,
+        "patient": 1,
+        "text": "Just stop being sick"
+    }
+    ]
+    
+}

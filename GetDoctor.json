@@ -1,0 +1,35 @@
+{
+    "pk": 1
+    "user": {
+        "pk": 3,
+        "fields": {
+            "username": "lbullard",
+            "password": "hashedpassword",
+            "email": "lbullard@email.com"
+        }
+    },
+    "first_name": "Lofton",
+    "last_name": "Bullard",
+    "patients": [
+                 {
+                     "user": {
+                         "pk": 2,
+                         "fields": {
+                             "username": "jbieber",
+                             "password": "hashedpassword",
+                             "email": "jbieber@email.com"
+                         }
+                     },
+                     "first_name": "Justin",
+                     "last_name": "Bieber"
+                 }
+    ]
+    "instructions": [
+                     {
+                     "pk": 45,
+                     "doctor": 1,
+                     "patient": 2,
+                     "text": "Just stop being sick"
+                     }
+                     ]
+}
